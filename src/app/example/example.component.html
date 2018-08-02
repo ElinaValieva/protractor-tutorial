@@ -7,12 +7,17 @@
 <body>
 <div class="text-center text-warning">
   <h3>Here test example with form</h3>
-  <form (ngSubmit)="click()" class="form">
-    <div><input type="text" placeholder="Name" class="text-center text-info" name="name" [(ngModel)]="model.name"
-                #username="ngModel" required></div>
-    <div><input type="text" placeholder="Last name" class="text-center text-danger" name="lastName"
-                [(ngModel)]="model.lastName" #username="ngModel"
-                required></div>
+  <form (ngSubmit)="click()" class="form form-group">
+    <div class="form-group">
+    <input type="text" placeholder="Name" class="text-center text-info" name="name"
+             [(ngModel)]="model.name"
+             #username="ngModel" required>
+    </div>
+    <div class="form-group">
+      <input type="text" placeholder="Last name" class="text-center text-danger" name="lastName"
+             [(ngModel)]="model.lastName" #username="ngModel"
+             required>
+    </div>
     <button class="btn btn-warning" id="btnExample">click this button to say hello</button>
   </form>
 </div>

@@ -1,0 +1,8 @@
+html, body { height: 100%; }
+
+#wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -30px; }
+#bottom, #push { height:30px;}
+
+body { background:#333;}
+#header { height:30px; background:#000; color:#fff; }
+#footer { height:30px; background:#000; color:#fff; }
