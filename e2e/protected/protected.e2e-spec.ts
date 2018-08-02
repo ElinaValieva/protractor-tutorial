@@ -15,7 +15,7 @@ describe('protractor-tutorial - Protected page', () => {
     publicPage.navigateTo();
     publicPage.logOut(); // must be logged out before trying access "protected" page
     page.navigateTo();
-    expect(loginPage.getPageTitleText()).toEqual('Login');
+    expect(loginPage.getPageTitleText()).toEqual('This is login page ...');
   });
 
   it(`not authenticated user tries to access “protected” page and after being redirected to “login” screen, after successful

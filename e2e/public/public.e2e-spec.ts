@@ -9,6 +9,6 @@ describe('protractor-tutorial - Public page', () => {
 
   it('when user browses to our app he should see the default “public” screen', () => {
     page.navigateTo();
-    expect(page.getPageTitleText()).toEqual('Public');
+    expect(page.getPageTitleText()).toEqual('This is start page!');
   });
 });
