@@ -9,8 +9,8 @@ describe('protractor-tutorial - Example page', () => {
   });
 
   const data = {
-    name: 'Elina',
-    lastName: 'Valieva'
+    name: 'Some',
+    lastName: 'Person'
   };
 
   it('when user go to example page and fill all fields he should see hello-message', () => {
